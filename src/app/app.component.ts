@@ -11,7 +11,7 @@ export class AppComponent {
   aplicarSonido(numero:number): void{
 
     const audio = new Audio();
-    audio.src = '../assets/sonidos/nota'+numero+'.mp3';
+    audio.src = '../assets/sonidos/note'+numero+'.wav';
     audio.load();
     audio.play();
 
